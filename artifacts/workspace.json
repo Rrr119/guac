@@ -1,0 +1,17 @@
+{
+  "root": "/home/dev/feedback/uid30836",
+  "B": "/home/dev/feedback/uid30836",
+  "sha": "3e3a91ebabbe0cce4091799fd9cc6002fa7438b2",
+  "wslDistro": "Ubuntu-26.04",
+  "source": {
+    "owner": "guacsec",
+    "repo": "guac",
+    "sha": "3e3a91ebabbe0cce4091799fd9cc6002fa7438b2"
+  },
+  "fork": {
+    "owner": "Rrr119",
+    "repo": "guac",
+    "cloneUrl": "https://github.com/Rrr119/guac.git"
+  },
+  "at": "2026-11-20T21:00:40.874Z"
+}

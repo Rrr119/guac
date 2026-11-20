@@ -1,0 +1,30 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.5",
+  "serialNumber": "urn:uuid:3e671687-395b-41f5-a30f-a58921a69b79",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2024-01-01T00:00:00Z",
+    "component": {
+      "type": "container",
+      "bom-ref": "pkg:oci/alpine@3.19.0",
+      "name": "alpine",
+      "version": "3.19.0"
+    }
+  },
+  "components": [
+    {
+      "type": "library",
+      "bom-ref": "pkg:apk/alpine/openssl@3.1.4",
+      "name": "openssl",
+      "version": "3.1.4",
+      "purl": "pkg:apk/alpine/openssl@3.1.4"
+    }
+  ],
+  "dependencies": [
+    {
+      "ref": "pkg:oci/alpine@3.19.0",
+      "dependsOn": ["pkg:apk/alpine/openssl@3.1.4"]
+    }
+  ]
+}
